@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swatctl"
+version = "0.0.1"
+description = "SWAT project management CLI (create projects, pages, install/upgrade SWAT and plugins)"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name="You", email="you@example.com"}]
+requires-python = ">=3.8"
+
+[project.urls]
+"Homepage" = "https://example.org/swatctl"
+
+[project.scripts]
+swatctl = "swatctl.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest>=7.0", "pytest-mock"]
