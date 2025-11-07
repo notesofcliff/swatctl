@@ -12,7 +12,7 @@ def main(argv=None):
     a_create = sub.add_parser("create-project")
     a_create.add_argument("path")
     a_create.add_argument("--name", default="swat-project")
-    a_create.add_argument("--swat-repo", default="https://github.com/yourorg/swat.git")
+    a_create.add_argument("--swat-repo", default="https://github.com/notesofcliff/swat.git")
     a_create.add_argument("--ref", default=None)
 
     a_page = sub.add_parser("create-page")
@@ -23,7 +23,7 @@ def main(argv=None):
 
     a_sv = sub.add_parser("swat-set-version")
     a_sv.add_argument("project")
-    a_sv.add_argument("--repo", default="https://github.com/yourorg/swat.git")
+    a_sv.add_argument("--repo", default="https://github.com/notesofcliff/swat.git")
     a_sv.add_argument("--ref", required=True)
     a_sv.add_argument("--no-backup", action="store_true")
 

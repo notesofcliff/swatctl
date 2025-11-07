@@ -1,6 +1,6 @@
 # swatctl
 
-swatctl — a small management CLI for SWAT projects.
+swatctl: a small management CLI for SWAT projects.
 
 Features:
 - create-project
