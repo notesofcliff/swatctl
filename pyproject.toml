@@ -9,7 +9,7 @@ description = "SWAT project management CLI (create projects, pages, install/upgr
 readme = "README.md"
 license = {text = "MIT"}
 authors = [{name="You", email="you@example.com"}]
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 
 [project.urls]
 "Homepage" = "https://example.org/swatctl"
