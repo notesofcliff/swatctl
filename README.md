@@ -2,7 +2,7 @@
 
 # swatctl
 
-`swatctl` is a command-line tool for managing [SWAT (Static Web App Toolkit)](../swat) projects.
+`swatctl` is a command-line tool for managing [SWAT (Static Web App Toolkit)](https://github.com/notesofcliff/swat) projects.
 
 It helps with common tasks like creating new projects, managing application pages, and setting the version of the core SWAT library.
 
